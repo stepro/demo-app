@@ -1,4 +1,4 @@
-extends: github.com/stepro/mindaro/environments/azure.yaml
+extends: github.com/stepro/mindaro/environments/azure-aks.yaml
 variables:
   AZURE_RESOURCE_GROUP: demo-app
   AZURE_LOCATION: westus

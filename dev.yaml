@@ -1,6 +1,4 @@
-extends: github.com/stepro/mindaro/environments/azure-dev.yaml
+extends: github.com/stepro/mindaro/environments/azure-aci.yaml
 variables:
-  AZURE_RESOURCE_GROUP: bikesharing-dev
+  AZURE_RESOURCE_GROUP: demo-app-dev
   AZURE_LOCATION: westus
-  IMAGE_REGISTRY: stephpr.azurecr.io
-  IMAGE_REGISTRY_USERNAME: stephpr
